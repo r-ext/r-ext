@@ -1,0 +1,15 @@
+{
+	"name": "@r-ext/vite",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:r-ext/r-ext.git",
+		"directory": "packages/vite"
+	},
+	"license": "MIT",
+	"homepage": "https://rext.dev",
+	"version": "0.0.1",
+	"description": "React Extended Vite adapter",
+	"devDependencies": {
+		"vite": "^6.3.5"
+	}
+}

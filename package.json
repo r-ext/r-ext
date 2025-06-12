@@ -1,0 +1,19 @@
+{
+	"name": "r-ext-monorepo",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:r-ext/r-ext.git"
+	},
+	"license": "MIT",
+	"homepage": "https://rext.dev",
+	"private": true,
+	"version": "0.0.1",
+	"description": "React Extended Monorepo",
+	"workspaces": ["packages/**"],
+	"devDependencies": {
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"r-ext": "^0.0.1"
+	}
+}

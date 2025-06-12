@@ -1,0 +1,24 @@
+{
+	"name": "@r-ext/r-ext",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:r-ext/r-ext.git",
+		"directory": "packages/r-ext"
+	},
+	"license": "MIT",
+	"homepage": "https://rext.dev",
+	"type": "module",
+	"version": "0.0.1",
+	"description": "React Extended",
+	"files": ["dist"],
+	"bin": {
+		"rext": "dist/cli.js",
+		"r-ext": "dist/cli.js"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.1"
+	}
+}
